@@ -1,0 +1,16 @@
+2020-02-27 23:33:19 INFO  Client:19 -Enter amount,rate of interest,tenure,number of times,time_elapsed
+2020-02-27 23:33:39 INFO  Client:19 -Enter amount,rate of interest,tenure,number of times,time_elapsed
+2020-02-27 23:35:38 INFO  Client:19 -Enter amount,rate of interest,tenure,number of times,time_elapsed
+2020-02-27 23:36:27 ERROR SimpleInterest:9 -No errors found
+2020-02-27 23:36:27 DEBUG Client:28 -Your details has been sent for simple interest!
+2020-02-27 23:36:27 FATAL CompoundInterest:13 -No severe errors found!
+2020-02-27 23:36:27 DEBUG Client:31 -Your details has been sent for compound interest!
+2020-02-27 23:36:27 INFO  Main:15 -Simple Interest:64.8
+2020-02-27 23:36:27 INFO  Main:16 -Compound Interest:16875.98869069738
+2020-02-27 23:38:44 INFO  Client:19 -Enter amount,rate of interest,tenure,number of times,time_elapsed
+2020-02-27 23:39:08 ERROR SimpleInterest:9 -No errors found
+2020-02-27 23:39:08 DEBUG Client:28 -Simple interest calculation done
+2020-02-27 23:39:08 FATAL CompoundInterest:13 -No severe errors found!
+2020-02-27 23:39:08 DEBUG Client:31 -Compund interest calculation done
+2020-02-27 23:39:08 INFO  Main:15 -Simple Interest:64.8
+2020-02-27 23:39:08 INFO  Main:16 -Compound Interest:16875.98869069738

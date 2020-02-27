@@ -1,6 +1,10 @@
 package task_4;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Estimate {
+	private static final Logger LOGGER= LogManager.getLogger(Estimate.class); 
 	int totalcost;
 	void estimateCost(String material_standard,int total_area,String fully_automated)
 	{
@@ -19,7 +23,7 @@ public class Estimate {
 				totalcost=1800*total_area;
 			}
 		}
-		System.out.println(totalcost);
-		
+		LOGGER.info("Your total cost will be:"+totalcost);
+		LOGGER.warn("No harmful situations found");
 	}
 }
